@@ -35,7 +35,7 @@ Puedes acceder a la documentación de la API:
 https://app.swaggerhub.com/templates-docs/BRANDONVASQUEZBARRET/Coordinadora/1.0.0-oas3.1#/
 
 # Base de datos
-La base de datos está en la nube de AWS por el servicio de RDS, por lo que no es necesario construirla para la ejecución de este proyecto
+La base de datos sera necesario que proporcionen sus credenciales en un archivo .env
 
 # Servicio de notificación
 Como no se solicitó un endpoint para este servicio, entonces se implementó que las notificaciones fueran enviadas cada vez que se inicie el proyecto de Flask, los correos se pueden registrar en el endpoint de registrar asistentes
